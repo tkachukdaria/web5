@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+}
+div {
+    padding: 15px;
+}
+
+img{
+    width: 20vw;
+}
+
+.first {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#x {
+    background-color: deepskyblue;
+    padding: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+nav ul li a {
+    padding: 0 10px 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    height:90vh;
+}
+
+.left {
+    padding: 0;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.top {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.right {
+    padding: 0;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.second {
+    background-color: lightpink;
+    margin-right: 15px;
+    width: 50%;
+}
+
+.third {
+    background-color: lightseagreen;
+    width: 50%;
+}
+
+.fourth {
+    background-color: lightcoral;
+    margin-right: 15px;
+    width: 50%;
+}
+
+.fifth {
+    background-color: lightslategrey;
+    width: 50%;
+}
+
+.sixth {
+    background-color: mediumpurple;
+    height: 10vh;
+}
+
+.seventh {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+}
+
+#y {
+    background-color: seagreen;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    div{
+        padding: 10px;
+    }
+
+    p{
+        width: 93%;
+    }
+
+    .second, .third {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .third {
+        margin-top: 10px;
+    }
+
+    .text{
+        width: 85%;
+    }
+
+    img {
+        width: 70vw;
+    }
+
+    .first {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-height: fit-content;
+    }
+
+    .top{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left, .right {
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .fourth, .fifth, .sixth {
+        width: 100vw;
+        margin-top: 10px;
+    }
+
+    .sixth{
+        font-size: 7vw;
+    }
+
+    .seventh {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        height: 5vh;
+    }
+
+    #x, #y {
+        padding: 10px;
+        margin-right: 5px;
+    }
+
+    .slogan{
+        width: 40%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        float: none;
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+        text-align: left;
+    }
+}
